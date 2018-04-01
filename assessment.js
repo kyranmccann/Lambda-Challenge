@@ -50,8 +50,8 @@ function lambdaSchool(num) {
 */
 
 function longestString(strs){
-	let longestLength = 1; 
-	let longest = ' ';
+	let longestLength = 0; 
+	let longest = '';
 	for (let i = 0; i < strs.length; i++){
 		if (strs[i].length > longestLength){
 			longestLength = strs[i].length;
